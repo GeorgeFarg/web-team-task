@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/hr.css">
+    <title>HR</title>
+</head>
+<body>
+    <section id="employee_form">
+        <span class="info good" id="message">👍 Added</span>
+        <h1>Add Employee</h1>
+        <form>
+            <div class="input">
+                <label for="name">name</label>
+                <input name="name" class="name" id="name" type="text" />
+            </div>
+            <div class="input">
+                <label for="email">email</label>
+                <input name="email" class="email" id="email" type="text" />
+            </div>
+            <div class="input">
+                <label for="Job title">Job title</label>
+                <input name="Job title" class="Job title" id="Job title" type="text" />
+            </div>
+            <div class="input">
+                <label for="salary">Salary</label>
+                <input type="number" min="1000" max="7000" name="salary" id="salary">            
+            </div>
+            <div class="input">
+                <label for="phone">phone Number</label>
+                <input name="phone" class="phone" id="phone" type="text" />
+            </div>
+            <input type="submit" style="width: 200px;" value="Send">
+        </form>
+    </section>
+    <script src="/JS/hr.js" defer></script>
+</body>
+</html>
