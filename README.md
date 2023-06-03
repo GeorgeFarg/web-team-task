@@ -14,6 +14,6 @@ change the link to this: "mysql://[username]:[password]@[address]:[port]/employe
 6- npm run dev
 
 
-node:- 
+note:- 
 if you need to insert some dummy data to the app
 run this command: node generate_dummy_data\dummydata.js
